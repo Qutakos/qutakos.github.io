@@ -13,8 +13,8 @@
   <body>
     <header class="page-header">
       <div class="container">
-        Phone: +420 703 370 035 <br />
-        E-mail: dane4ek@post.cz
+       <a class="header-phone" href="tel:+420703370035"> Phone: +420 703 370 035 <br /> <a>
+        <a class="header-email" href="mailto:dane4ek@post.cz">E-mail: dane4ek@post.cz </a>
       </div>
     </header>
 
@@ -28,27 +28,49 @@
     <section class="intro">
       <div class="container">
         <h2 class="subheading">Few words about myself:</h2>
-        <h3>
-          As I said above, my name is Danil Kutana. My main profession is Junior
+        <figure class="project-image">
+          <img src="files/user.jpg" width="928" height="536" alt="My photo" style="border-radius: 20%; border-width: 5px; border-color: aliceblue; padding: 5px; border-style: solid;">
+        </figure>
+        <h3 style="font-size: 25px;">
+          As I said above, my name is Daniel Kutana. My main profession is Junior
           coder...
         </h3>
-        <h3>
+
           What can i do? <br />
-          HTML, CSS, JavaScript, React, ...
-        </h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScriptL</li>
+          <li>React</li>
+          <li>Redux</li>
+        </ul> 
+
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
-          magnam expedita ipsa.
+English skills level: intermediate <br>
+Russian skills level: colloquial <br>
+Czech skills level: colloquial
         </p>
+        <div class="skills">
+          <h3>Мои навыки</h3>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level"><div style="width: 60%;">60%</div></dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level"><div style="width: 40%">40%</div></dd>
+          </dl>
+        </div>
       </div>
     </section>
 
     <section class="portfolio">
       <div class="container">
         <h2 class="subheading">My projects:</h2>
+        <figure class="project-image">
+          <img src="files/project.jpg" width="928" height="536" alt="My project"></figure>
 
         <h3>My portfolio</h3>
         <p>My first expirience ever.</p>
+        <a style="margin-bottom: 50px" class="button" href="#">Открыть страницу</a>
 
         <h3>Sneaker shop</h3>
         <p>My first expirience with the real project.</p>
@@ -57,9 +79,9 @@
 
     <footer class="page-footer">
       <div class="container">
-        Phone: +420 703 370 035 <br />
-        E-mail: dane4ek@post.cz
-      </div>
+        <a class="footer-phone" href="tel:+420703370035"> Phone: +420 703 370 035 <br /> </a>
+         <a class="footer-email" href="mailto:dane4ek@post.cz">E-mail: dane4ek@post.cz </a>
+       </div>
     </footer>
   </body>
 </html>
